@@ -1,0 +1,37 @@
+.root {
+    -fx-font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    -fx-background-color: #2B2B2B;
+    -fx-background-image: url('https://static.spektrum.de/fm/912/f2000x857/iStock-873699022_wacomka.jpg');
+    -fx-background-size: cover;
+    -fx-padding: 20px;
+}
+
+.button {
+    -fx-background-color: #3C7FC0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 4px;
+    -fx-padding: 5px 15px;
+}
+
+.text-field, .text-area {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: black;
+    -fx-border-color: #3C7FC0;
+    -fx-border-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #5596C8;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.text-area {
+    -fx-control-inner-background: #2B2B2B;
+    -fx-text-fill: white;
+}
